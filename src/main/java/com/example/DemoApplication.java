@@ -18,6 +18,13 @@ public class DemoApplication {
       return "Hello World!";
     }
 
+    @RequestMapping("/bill")
+    @ResponseBody
+    String home() {
+      return "Hello Bill!";
+    }
+
+    
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
