@@ -20,7 +20,7 @@ public class DemoApplication {
 
     @RequestMapping("/bill")
     @ResponseBody
-    String home() {
+    String billHome() {
       return "Hello Bill!";
     }
 
